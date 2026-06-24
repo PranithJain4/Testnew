@@ -4,7 +4,10 @@ int main()
 {
     int a = 10, b = 20   // Error 1
 
-    printf("Sum = %d\n", a + b)  // Error 2
+    int a = 10, b = 20;
+    printf("Sum = %d\n", a + b);
+
+    if(a < b) {
 
     if(a < b {   // Error 3
         printf("a is smaller\n");
